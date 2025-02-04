@@ -1,142 +1,89 @@
+/* General Styles */
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: #F9FAFC;
+    color: #333;
 }
 
-.brand {
-    font-family: Lato, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #c80de5;
+/* Navbar */
+.navbar {
+    padding: 15px 0;
 }
 
-.red-o {
-    color: #da10e8;
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.8rem;
 }
 
-.thin {
-    font-weight: 300;
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #555;
+    transition: color 0.3s ease-in-out;
 }
 
-.light-bg {
-    background-color: #fff;
+.navbar-nav .nav-link:hover {
+    color: #007bff;
 }
 
-.dark-bg {
-    background-color: #f40fe1;
-}
-
-.main-bg {
-    background-color: #F9FAFC;
-}
-
-.card {
-    border: none;
-    background-color: transparent;
-}
-
-.image-container {
-    position: relative;
-}
-
-.image-flash {
-    position: absolute;
-    bottom: 5%;
-    min-width: 30%;
-    left: -2px;
-    background-color: #23BBBB;
-}
-
-.author {
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #007bff, #00c6ff);
     color: white;
-    margin: 4px;
-    text-transform: uppercase;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 0 0 50px 50px;
 }
 
-.masthead {
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
     margin-top: 10px;
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
-    height: 33vh;
-    width: 100%;
+    opacity: 0.8;
 }
 
-.masthead-text {
-    background-color: #7f7280;
-    color: white;
-    position: relative;
+.text-highlight {
+    color: #ffeb3b;
 }
 
-.masthead-image {
-    position: relative;
-    overflow: hidden;
+.btn-primary {
+    background-color: #ffeb3b;
+    color: #333;
+    border: none;
+    font-weight: 600;
 }
 
-.masthead-image:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 90%;
-    height: 100%;
-    width: 150%;
-    background: #d006eb;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
-    z-index: 100;
+.btn-primary:hover {
+    background-color: #ffd600;
 }
 
-.post-link {
-    text-decoration: none;
-    color: #445261;
+/* Flash Messages */
+.alert {
+    max-width: 600px;
 }
 
-.post-link:hover,
-.page-link {
-    color: #e810bd;
-}
-
-.post-title {
-    margin-top: 20%;
-    margin-left: 5%;
-}
-
-.post-subtitle {
-    margin-left: 5%;
-    color: lightgray;
-}
-
-.btn-signup {
-    background-color: #23BBBB;
+/* Footer */
+.footer {
+    background: #222;
     color: #fff;
+    padding: 20px 0;
 }
 
-.btn-signup:hover,
-.btn-signup:active {
-    background-color: #fff;
-    color: #23BBBB;
+.social-icons a {
+    color: #ffcc00;
+    font-size: 1.8rem;
+    margin: 0 10px;
+    transition: color 0.3s;
 }
 
-.link {
-    color: #23BBBB;
-    text-decoration: none;
+.social-icons a:hover {
+    color: #ff9900;
 }
 
-.link:hover,
-.link:active {
-    color: #445261;
-    text-decoration: underline;
-}
-
-.btn-like {
-    color: #E84610;
-    border: none;
-    background: transparent;
-}
-
-.btn-like:hover,
-.btn-like:active {
-    color: #E84610;
-    background: transparent;
-    border: none;
+/* Utility */
+.text-primary {
+    color: #007bff !important;
 }
