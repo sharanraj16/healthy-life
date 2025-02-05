@@ -33,7 +33,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['healthy-life1.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['healthy-life1-1f1ff8e3c820.herokuapp.com', 'localhost']
 
 
 # Application definition
