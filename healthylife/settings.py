@@ -33,7 +33,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['healthy-life1.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-sharanraj16-healthylife-uggrm9gljqt.ws-eu117.gitpod.io']
 
 
 # Application definition
@@ -45,11 +45,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.sites',
+     'django.contrib.staticfiles',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'cloudinary_storage',
-    'django.contrib.staticfiles',
     'cloudinary',
     'django_summernote',
     'crispy_forms',

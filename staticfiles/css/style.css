@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9FAFC;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #555;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 0 0 50px 50px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.text-highlight {
+    color: #ffeb3b;
+}
+
+.btn-primary {
+    background-color: #ffeb3b;
+    color: #333;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #ffd600;
+}
+
+/* Flash Messages */
+.alert {
+    max-width: 600px;
+}
+
+/* Footer */
+.footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.social-icons a {
+    color: #ffcc00;
+    font-size: 1.8rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff9900;
+}
+
+/* Utility */
+.text-primary {
+    color: #007bff !important;
+}
