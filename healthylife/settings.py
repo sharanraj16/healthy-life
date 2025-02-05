@@ -29,11 +29,15 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = ['healthy-life1-1f1ff8e3c820.herokuapp.com', 'localhost']
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://8000-sharanraj16-healthylife-uggrm9gljqt.ws-eu117.gitpod.io"
+]
 
 
 # Application definition
@@ -45,14 +49,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.sites',
-     'django.contrib.staticfiles',
+    'cloudinary_storage',
+    'django.contrib.staticfiles',
+    'cloudinary',
+    'crispy_forms',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'cloudinary_storage',
-    'cloudinary',
     'django_summernote',
-    'crispy_forms',
     'blog',
 
 ]
