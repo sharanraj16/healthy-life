@@ -33,7 +33,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['8000-sharanraj16-healthylife-uggrm9gljqt.ws-eu117.gitpod.io']
+ALLOWED_HOSTS = ['healthy-life1.herokuapp.com', 'localhost']
 
 
 # Application definition
