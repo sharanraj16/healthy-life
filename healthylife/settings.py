@@ -17,6 +17,10 @@ from django.contrib.messages import constants as messages
 if os.path.isfile("env.py"):
      import env
 
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
@@ -33,11 +37,13 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['healthy-life1-1f1ff8e3c820.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['healthy-life1-1f1ff8e3c820.herokuapp.com', 'localhost', '8000-sharanraj16-healthylife-uggrm9gljqt.ws-eu117.gitpod.io']
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://8000-sharanraj16-healthylife-uggrm9gljqt.ws-eu117.gitpod.io"
+    'https://8000-sharanraj16-healthylife-uggrm9gljqt.ws-eu117.gitpod.io',
+    'https://healthy-life1-1f1ff8e3c820.herokuapp.com/',
 ]
+
 
 
 # Application definition
@@ -77,6 +83,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
