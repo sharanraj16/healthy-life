@@ -2,6 +2,7 @@
 # **Healthy-Life Blog 🌱🏋️‍♂️: Your Guide to a Healthier Lifestyle**
 
 ---
+![image](assets/readmeimages/amibank.png)
 
 ## 1. **Project Overview**
 
@@ -11,7 +12,7 @@
 ### 1.2 **Learning Experience**
 This project has been a great opportunity to dive deep into full-stack development. I am grateful to Code Institute for their exceptional Learning Management System (LMS) that has significantly contributed to my development skills. Special thanks go to the mentor service and student support team for their continuous guidance and encouragement.
 
----
+---Heroku.  <a href="https://healthy-life1-1f1ff8e3c820.herokuapp.com/" target="_blank" rel="noopener">healthy-life</a>
 
 ## **Table of Contents**
 
