@@ -341,4 +341,143 @@ This project is dedicated to my late grandfather, whose memory inspires me every
 
 ---
 
-Let me know if you need anything else!
+# The Healthy-Life Blog Test Page
+
+### Return to [README.md](README.md) file.
+
+## Table Of Contents
+
+- [Code Validation](#code-validation)
+- [Manual Testing](#manual-testing)
+- [Responsiveness Testing](#responsiveness-testing)
+- [Lighthouse Testing](#lighthouse-testing)
+- [Browser Compatibility](#browser-compatibility)
+- [Additional Testing](#additional-testing)
+
+---
+
+# Code Validation
+
+Below are the tools and results from the code validation process.
+
+### Validation Tools Used
+
+- **HTML Validation:** [W3C Validator](https://validator.w3.org/)
+- **CSS Validation:** [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- **JavaScript Validation:** [JSHint](https://jshint.com/)
+- **Python Validation:** [PEP8 Compliance Checker](https://pep8ci.herokuapp.com/)
+
+### Validation Results
+
+- **HTML Validation:**
+  - No errors or warnings found.
+
+- **CSS Validation:**
+  - No errors or warnings found.
+
+- **JavaScript Validation:**
+  - No errors or warnings found.
+
+- **Python Validation:**
+  - The following key files were checked:
+    - `admin.py` - No issues found.
+    - `apps.py` - No issues found.
+    - `forms.py` - No issues found.
+    - `models.py` - No issues found.
+    - `urls.py` - No issues found.
+  - All Python files follow PEP8 style guidelines.
+
+---
+
+# Browser Compatibility
+
+The deployed site was tested on multiple browsers to ensure a consistent user experience.
+
+### Tested Browsers:
+- Firefox
+- Chrome
+- Safari
+
+### Test Results:
+
+| Browser  | Homepage | Signup/Login/Logout | Blog Posts | Comments | Likes |
+|----------|---------|---------------------|------------|----------|-------|
+| Firefox  | Pass    | Pass                | Pass       | Pass     | Pass  |
+| Chrome   | Pass    | Pass                | Pass       | Pass     | Pass  |
+| Safari   | Pass    | Pass                | Pass       | Pass     | Pass  |
+
+---
+
+# Manual Testing
+
+A thorough manual testing process was conducted to ensure that all site features function correctly.
+
+### Homepage, Signup, Login, Logout
+
+| Test Action                        | Expected Outcome                              | Status |
+|-------------------------------------|----------------------------------------------|--------|
+| Clicking the URL loads homepage     | Homepage displays correctly                  | Pass   |
+| Clicking signup navigates to signup page | Signup page loads correctly             | Pass   |
+| Clicking login navigates to login page   | Login page loads correctly             | Pass   |
+| Clicking logout displays confirmation | Logout confirmation message appears    | Pass   |
+
+### Blog Posts, Comments, and Likes
+
+| Test Action                          | Expected Outcome                           | Status |
+|--------------------------------------|-------------------------------------------|--------|
+| Users can view blog posts            | Blog posts display correctly              | Pass   |
+| Clicking "Read More" opens full article | Full article loads                      | Pass   |
+| Logged-in users can add comments     | Comments appear correctly                 | Pass   |
+| Logged-in users can like blog posts  | Likes register properly                   | Pass   |
+
+### Admin Panel
+
+| Test Action                              | Expected Outcome                            | Status |
+|-----------------------------------------|--------------------------------------------|--------|
+| Admin can view all blog posts           | Blog posts are visible in the admin panel | Pass   |
+| Admin can delete inappropriate posts    | Posts are successfully deleted            | Pass   |
+| Admin can monitor user interactions     | Comments and likes appear in reports      | Pass   |
+
+---
+
+# Mobile Devices Testing
+
+The site was tested on multiple mobile devices for responsiveness and usability.
+
+| Feature   | iPhone XR | iPhone 16 | Oppo A54 5G |
+|-----------|----------|----------|------------|
+| Homepage  | Pass     | Pass     | Pass       |
+| Signup    | Pass     | Pass     | Pass       |
+| Login     | Pass     | Pass     | Pass       |
+| Images    | Pass     | Pass     | Pass       |
+| Links     | Pass     | Pass     | Pass       |
+| Comments  | Pass     | Pass     | Pass       |
+| Likes     | Pass     | Pass     | Pass       |
+
+---
+
+# Additional Testing
+
+### Lighthouse Testing
+
+Google Lighthouse was used to test the site in areas such as performance, accessibility, best practices, and SEO.
+
+**Findings:**
+- **Performance:** Excellent.
+- **Accessibility:** Passed with high scores.
+- **Best Practices:** No issues detected.
+- **SEO:** Passed with optimal metadata usage.
+
+### Peer Review
+
+To further validate the site’s usability and functionality, peers were invited to interact with the platform.
+
+- **Positive Feedback:**
+  - Easy-to-use interface.
+  - Clear navigation and well-structured blog posts.
+  - Seamless signup and login processes.
+
+---
+
+[Return to README.md](README.md)
+
