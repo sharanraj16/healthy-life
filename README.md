@@ -1,7 +1,7 @@
 
 # **Healthy-Life Blog 🌱🏋️‍♂️: Your Guide to a Healthier Lifestyle**
 
----![image](assets/readmeimages/amibank.png)
+---![image](static/readmeimages/mainpage.png)
 
 
 ## 1. **Project Overview**
@@ -32,6 +32,16 @@ This project has been a great opportunity to dive deep into full-stack developme
 - [Credits](#credits)
 
 ---
+## Balsamiq Wireframe
+
+![Wireframe Preview](static/readmeimages/mainpagebalsamiq.png)
+
+![Wireframe Preview](static/readmeimages/blogpagebalsamiq.png)
+
+![Wireframe Preview](static/readmeimages/signinbalasamiq.png)
+
+![Wireframe Preview](static/readmeimages/signupbalasamiq.png)
+
 
 ## 2. **Project Vision and Strategic Framework**
 
@@ -45,6 +55,18 @@ This project has been a great opportunity to dive deep into full-stack developme
 - **Seamless User Experience**: We focus on delivering a smooth, intuitive interface for easy navigation and a pleasant reading experience for all users.
 
 ---
+![Wireframe Preview](static/readmeimages/home.png)
+
+![Wireframe Preview](static/readmeimages/blog.png)
+
+![Wireframe Preview](static/readmeimages/signuppage.png)
+
+![Wireframe Preview](static/readmeimages/signin.png)
+
+![Wireframe Preview](static/readmeimages/signuotconfiramtion.png)
+
+![Wireframe Preview](static/readmeimages/commentsandlikes.png)
+
 
 ## 3. **Comprehensive User Experience Design**
 
@@ -156,6 +178,8 @@ The site uses a soothing, energetic color palette to promote a healthy, clean lo
 - **White**: Keeps the design clean and easy to read, optimizing the background and layout.
 - **Dark Gray**: Used for text to create a high contrast with the white background for legibility.
 
+
+![Wireframe Preview](static/readmeimages/yellow-white-blue.png)
 ---
 
 ## 8. **Database Schema**
@@ -210,6 +234,13 @@ The site uses a soothing, energetic color palette to promote a healthy, clean lo
 - Ability to moderate comments and manage user interactions.
 
 ---
+![Wireframe Preview](static/readmeimages/adminlogin.png)
+
+![Wireframe Preview](static/readmeimages/adminpanel.png)
+
+
+
+![Wireframe Preview](static/readmeimages/ERD_Diagram.png)
 
 ## 10. **Technologies Used**
 
@@ -368,6 +399,10 @@ Below are the tools and results from the code validation process.
 - **JavaScript Validation:** [JSHint](https://jshint.com/)
 - **Python Validation:** [PEP8 Compliance Checker](https://pep8ci.herokuapp.com/)
 
+![Wireframe Preview](static/readmeimages/cssreport.png)
+
+![Wireframe Preview](static/readmeimages/pythonreport.png)
+
 ### Validation Results
 
 - **HTML Validation:**
@@ -468,6 +503,8 @@ Google Lighthouse was used to test the site in areas such as performance, access
 - **Accessibility:** Passed with high scores.
 - **Best Practices:** No issues detected.
 - **SEO:** Passed with optimal metadata usage.
+
+
 
 ### Peer Review
 
