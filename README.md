@@ -1,8 +1,8 @@
 
 # **Healthy-Life Blog 🌱🏋️‍♂️: Your Guide to a Healthier Lifestyle**
 
----
-![image](assets/readmeimages/amibank.png)
+---![image](assets/readmeimages/amibank.png)
+
 
 ## 1. **Project Overview**
 
